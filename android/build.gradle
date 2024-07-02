@@ -4,12 +4,12 @@ version '1.0-SNAPSHOT'
 buildscript {
     ext.kotlin_version = '2.0.0'
     repositories {
-        google()
+        // google()
         jcenter()
     }
 
     dependencies {
-        classpath 'com.google.gms:google-services:4.4.2' 
+        // classpath 'com.google.gms:google-services:4.4.2' 
         classpath 'com.android.tools.build:gradle:7.4.0'
         classpath "org.jetbrains.kotlin:kotlin-gradle-plugin:$kotlin_version"
     }
